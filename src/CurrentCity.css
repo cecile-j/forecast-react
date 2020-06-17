@@ -1,0 +1,37 @@
+body {
+  color: white;
+}
+
+.CurrentCity #weather-description,
+#current-city {
+  text-transform: capitalize;
+}
+
+.CurrentCity #temp {
+  font-size: 35px;
+}
+
+#time {
+  font-size: 15px;
+}
+
+#weather-description {
+  font-size: 15px;
+}
+
+#current-temperature {
+  font-size: 35px;
+}
+
+hr {
+  border: 0.3px solid white;
+  max-width: 300px;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  font-weight: 300;
+}

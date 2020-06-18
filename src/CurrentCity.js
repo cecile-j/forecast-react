@@ -10,17 +10,18 @@ export default function CurrentCity() {
           src="http://openweathermap.org/img/wn/01d@2x.png"
           id="current-icon"
           width=""
+          alt="weather-icon"
         />
         <div id="weather-description">Sun</div>
         <div id="weather-wind">Wind: 10mph</div>
         <div id="current-temperature">21° C</div>
 
         <div id="links">
-          <a href="" id="celsius" class="active">
+          <a href="#" id="celsius" class="active">
             C{" "}
           </a>
           |
-          <a href="" id="fahrenheit">
+          <a href="#" id="fahrenheit">
             {" "}
             F
           </a>

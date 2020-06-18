@@ -16,16 +16,7 @@ export default function CurrentCity() {
         <div id="weather-wind">Wind: 10mph</div>
         <div id="current-temperature">21° C</div>
 
-        <div id="links">
-          <a href="#" id="celsius" class="active">
-            C{" "}
-          </a>
-          |
-          <a href="#" id="fahrenheit">
-            {" "}
-            F
-          </a>
-        </div>
+        <div id="links">C | F</div>
       </div>
       <hr />
     </div>

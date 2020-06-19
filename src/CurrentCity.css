@@ -35,3 +35,28 @@ a {
 h1 {
   font-weight: 300;
 }
+
+.Form {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  margin-right: 15px;
+}
+
+button {
+  font-family: "montserrat";
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: rgba(233, 233, 233, 0.493);
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

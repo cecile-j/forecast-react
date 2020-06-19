@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
 
 export default function CurrentCity(props) {
   const [weatherData, setWeatherData] = useState({ loaded: false });
@@ -14,7 +15,7 @@ export default function CurrentCity(props) {
       city: response.data.name,
       description: response.data.weather[0].description,
       iconUrl: "http://openweathermap.org/img/wn/10d@2x.png",
-      date: "Wednesday 07:00",
+      date: new Date(response.data.dt * 1000),
     });
   }
 
@@ -37,7 +38,9 @@ export default function CurrentCity(props) {
         <div className="CurrentCity">
           <div class="current-forecast">
             <h1 id="current-city">{weatherData.city}</h1>
-            <div id="time">{weatherData.date}</div>
+            <div id="time">
+              <FormattedDate date={weatherData.date} />
+            </div>
             <img
               src={weatherData.iconUrl}
               id="current-icon"

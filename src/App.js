@@ -18,7 +18,12 @@ export default function App() {
           {/* <Forecastrows /> */}
         </div>
       </div>
-      <footer>This project is created by Cecile J.</footer>
+      <footer>
+        This project was created by{" "}
+        <a href="https://github.com/cecile-j/forecast-react" className="footer">
+          Cecile J.
+        </a>
+      </footer>
     </div>
   );
 }

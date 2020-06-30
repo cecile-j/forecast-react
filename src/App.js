@@ -2,7 +2,6 @@ import React from "react";
 import "./Styles.css";
 // import Form from "./Form";
 import CurrentCity from "./CurrentCity";
-import Forecastrows from "./Forecastrows";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";

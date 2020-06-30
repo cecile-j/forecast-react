@@ -6,7 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
 import "./CurrentCity.css";
-import "./Forecast.css";
 
 export default function App() {
   return (

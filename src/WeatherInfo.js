@@ -24,15 +24,9 @@ export default function WeatherInfo(props) {
           <WeatherTemperature celsius={props.data.temperature} />
         </div>
         <hr />
-        <div className="Forecast">
-          <div id="Forecast-container">
-            <div>
-              <strong>
-                <span>21°C</span>
-              </strong>
-            </div>
-          </div>
-        </div>
+        {/* <div className="Forecast">
+          <div id="Forecast-container"></div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 
 export default function CurrentCity(props) {
   const [weatherData, setWeatherData] = useState({ loaded: false });
@@ -49,7 +50,10 @@ export default function CurrentCity(props) {
             />
             <input type="submit" value="Search" className="button"></input>
           </form>
-          <WeatherInfo data={weatherData} />
+          <div id="currentCity">
+            <WeatherInfo data={weatherData} />
+            <WeatherForecast city={weatherData.city} />
+          </div>
         </div>
       </div>
     );

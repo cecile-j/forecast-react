@@ -48,7 +48,7 @@ export default function CurrentCity(props) {
               autocomplete="off"
               onChange={handleCityChange}
             />
-            <input type="submit" value="Search"></input>
+            <input type="submit" value="Search" className="button"></input>
           </form>
           <WeatherInfo data={weatherData} />
         </div>

@@ -19,6 +19,7 @@ export default function WeatherForecastPreview(props) {
       <br />
       <img
         src={`http://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`}
+        alt="icon"
       ></img>{" "}
       <br />
       {temperature()}
